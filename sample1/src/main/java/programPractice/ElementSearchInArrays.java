@@ -13,6 +13,7 @@ public class ElementSearchInArrays {
 				int add=a[i]+a[j];
 				if(add==9)
 				{
+				    
 					int f=a[i];
 					int s=a[j];
 					System.out.println(a);

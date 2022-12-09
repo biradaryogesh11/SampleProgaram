@@ -27,7 +27,7 @@ public class TableHandling3
 		for(WebElement header:table_header)
 		{
 			 text = header.getText();
-			 System.out.println("  |  "+text+"  |  ");
+			 System.out.print("  |  "+text+"  |  ");
 		}
 		
 		
