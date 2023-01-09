@@ -28,7 +28,7 @@ public class CreateLinkedHashMap {
 		
 		while(map1.hasNext())
 		{
-			Integer key = map1.next();
+			 Integer key = map1.next();
 			String value = map.get(key);
 			System.out.println("key: "+key+" values: "+value);
 		}

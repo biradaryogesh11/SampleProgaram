@@ -19,9 +19,9 @@ public class ConverHashMapIntoArrayList {
 		
 		ArrayList<Integer> list= new ArrayList<Integer>(map1);
 		System.out.println(list);
-		 Collection<String> list2 = map.values();
-		 ArrayList<String> list3= new ArrayList<String>(list2);
-		 System.out.println(list3);
+		Collection<String> list2 = map.values();
+		ArrayList<String> list3= new ArrayList<String>(list2);
+		System.out.println(list3);
 		 
 
 	}
