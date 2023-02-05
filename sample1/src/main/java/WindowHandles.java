@@ -64,8 +64,10 @@ public class WindowHandles
 				System.out.println("found right window");
 				return true;
 			}
+			
 		}
-	    return false;
+	return false;
+	    
 		
 	}
 }

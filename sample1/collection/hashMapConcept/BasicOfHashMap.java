@@ -23,7 +23,7 @@ public class BasicOfHashMap
 	   
 	    
 	    // remove the value
-	    map.remove("china");
+	  //  map.remove("china");
 	    System.out.println(map.get("china"));
 	    System.out.println(map.get("uk"));
 	    

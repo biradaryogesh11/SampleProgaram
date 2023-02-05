@@ -8,7 +8,7 @@ public class CountOfCapitalizedString {
 		
 	    int l=str.length();
 	    int count=0;
-	    
+	    int count1=0;
 	    for(int i=0;i<l;i++)
 	    {
 	    	   char ch = str.charAt(i);
@@ -16,8 +16,13 @@ public class CountOfCapitalizedString {
 	    	   {
 	    		   count++;
 	    	   }
+	    	   if(ch>='a' &&ch<='z')
+	    	   {
+	    		   count1++;
+	    	   }
 	    }
-	    System.out.println(count);
+	    System.out.println("capital letter : "+count);
+	    System.out.println("small letter : "+count1);
 
 	}
 

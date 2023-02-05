@@ -15,7 +15,7 @@ public class DuplicateElementInArray {
 				if(b[i]==b[j]&&b[j]!=0)
 				{
 					count++;
-					b[j]=0;
+					b[j]='0';
 				}
 				if(count>1&&b[i]!=0)
 				{
