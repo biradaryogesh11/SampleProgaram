@@ -7,7 +7,7 @@ import java.util.Collections;
 public class ArrayListCompare {
 
 	public static void main(String[] args) {
-		
+		// yogesh Biradar
 		// Comparison between two list
 		ArrayList<String> list=new ArrayList<String>(Arrays.asList("a","b","c","d","e"));
 		ArrayList<String> list1=new ArrayList<String>(Arrays.asList("a","e","c","d","b"));
